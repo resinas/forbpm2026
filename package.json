@@ -1,0 +1,14 @@
+{
+  "name": "forbpm-workshop-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static workshop landing page generated from markdown with Eleventy.",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "cheerio": "^1.1.2"
+  }
+}
