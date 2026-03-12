@@ -32,7 +32,9 @@ We invite contributions that revisit ideas, findings, or perspectives in Busines
 
 ## Submission guidelines
 
-Submissions should follow the LNBIP format and should not exceed 12 pages, excluding appendices.
+Submissions should follow the LNBIP format and can be of two types:
+- Regular paper submissions: no longer than 12 pages, excluding appendices.
+- Short paper submissions: up to 8 pages, excluding appendices.
 
 Authors are encouraged to include an optional brief history of the idea, either in the paper itself or in the appendix (for example: prior submissions, reviews, and reception). This contextual information will be used solely to evaluate topical fit and to foster constructive re-positioning within the community.
 
@@ -43,6 +45,8 @@ In alignment with the workshop theme, the review protocol is designed to surface
 Reviews will be openly shared among the contributing authors and the PC. This transparency encourages constructive commentary, mitigates bias against unconventional ideas, and helps identify promising directions that might be overlooked under standard closed review.
 
 We expect this reflective format to be particularly beneficial to early-career researchers and to researchers proposing speculative or re-emergent ideas.
+
+Authors of rejected papers will be able to decide not to make their submission and reviews public.
 
 ## Workshop format
 
