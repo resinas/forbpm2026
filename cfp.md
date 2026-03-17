@@ -40,13 +40,15 @@ Authors are encouraged to include an optional brief history of the idea, either 
 
 ## Open reviewing process
 
-In alignment with the workshop theme, the review protocol is designed to surface perspectives that are often hidden.
+In alignment with the workshop’s focus on overlooked and unconventional ideas, the review process is designed to be transparent and constructive.
 
-Reviews will be openly shared among the contributing authors and the PC. This transparency encourages constructive commentary, mitigates bias against unconventional ideas, and helps identify promising directions that might be overlooked under standard closed review.
+All reviews will be public but anonymous. This transparency makes the evaluation process visible while preserving reviewer confidentiality, encouraging constructive commentary, mitigating bias against unconventional ideas, and helping identify promising directions that might be overlooked under standard closed review.
 
-We expect this reflective format to be particularly beneficial to early-career researchers and to researchers proposing speculative or re-emergent ideas.
+Reviewers will be asked to focus on the insightfulness, discussion potential, and relevance to the workshop theme, rather than solely on novelty or expected impact. Submissions are not required to be fully validated, but should offer clear and thought-provoking perspectives.
 
-Authors of rejected papers will be able to decide not to make their submission and reviews public.
+The review process may include a brief discussion phase, where authors can respond to reviews and reviewers can ask clarifying questions. This exchange is intended to improve mutual understanding and refine how the work is framed within the community.
+
+Reviews of accepted papers will be made public. Authors of rejected papers may opt out from having their submission and reviews shared.
 
 ## Workshop format
 
