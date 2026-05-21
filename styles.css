@@ -248,6 +248,38 @@ main {
   padding: 0.1rem 0.3rem;
 }
 
+.contribution-grid {
+  display: grid;
+  gap: 0.85rem;
+  margin-top: 0.9rem;
+}
+
+.contribution-card {
+  min-height: 100%;
+  padding: 0.95rem 1rem;
+  background: rgba(255, 255, 255, 0.58);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.contribution-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(17, 43, 61, 0.1);
+}
+
+.contribution-card h3 {
+  margin: 0;
+  color: var(--accent-strong);
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.content-section .contribution-card p {
+  margin-top: 0.45rem;
+  color: rgba(24, 34, 45, 0.78);
+}
+
 .timeline {
   display: grid;
   gap: 0.8rem;
@@ -335,6 +367,7 @@ main {
 }
 
 .js .content-section,
+.js .contribution-card,
 .js .timeline-item,
 .js .organizer-card {
   opacity: 0;
@@ -342,6 +375,7 @@ main {
 }
 
 .js .content-section.is-visible,
+.js .contribution-card.is-visible,
 .js .timeline-item.is-visible,
 .js .organizer-card.is-visible {
   opacity: 1;
@@ -357,6 +391,10 @@ main {
 }
 
 .js .timeline-item {
+  transition: opacity 460ms ease, transform 460ms ease, box-shadow 180ms ease;
+}
+
+.js .contribution-card {
   transition: opacity 460ms ease, transform 460ms ease, box-shadow 180ms ease;
 }
 
@@ -413,6 +451,10 @@ main {
 
   .content-section {
     padding: 1.35rem 1.25rem;
+  }
+
+  .contribution-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .organizer-grid {

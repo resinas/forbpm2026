@@ -36,6 +36,15 @@ importantDates:
     label: Camera-ready submission
   - date: September 28, 2026
     label: Workshop
+contributionTypes:
+  - title: Negative or null results
+    description: Papers describing studies with non-confirmed hypotheses or negative results.
+  - title: Forgotten topics
+    description: Revisits of topics once considered important but later neglected.
+  - title: Practitioner perspectives
+    description: Practitioner reports on ideas that were disregarded in academic discourse but proved valuable in practice.
+  - title: Vision papers
+    description: Re-framing old or rejected concepts in light of new technologies and contexts.
 ---
 
 ## Aims and Scope
@@ -56,18 +65,25 @@ The workshop has five goals:
 ## Types of contributions
 
 We invite contributions that revisit ideas, findings, or perspectives in Business Process Management that have been overlooked, rejected, or forgotten. This includes, among others:
-- Papers describing studies with non-confirmed hypotheses or negative results.
-- Revisits of topics once considered important but later neglected.
-- Practitioner reports on ideas that were disregarded in academic discourse but proved valuable in practice.
-- Vision papers re-framing old or rejected concepts in light of new technologies and contexts.
+
+{% if contributionTypes %}
+<div class="contribution-grid">
+  {% for item in contributionTypes %}
+  <section class="contribution-card">
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.description }}</p>
+  </section>
+  {% endfor %}
+</div>
+{% endif %}
 
 ## Submission guidelines
 
 Submissions should follow the LNBIP format and can be of two types:
-- Regular paper submissions: no longer than 12 pages, excluding appendices.
-- Short paper submissions: up to 8 pages, excluding appendices.
+- **Regular paper submissions**: no longer than 12 pages, excluding appendices.
+- **Short paper submissions**: up to 8 pages, excluding appendices.
 
-Papers should be submitted through <a href="https://openreview.net/group?id=bpm-conference.org/BPM/2026/Workshop/FOR-BPM" target="_blank" rel="noopener noreferrer">OpenReview</a>.
+**Papers should be submitted through <a href="https://openreview.net/group?id=bpm-conference.org/BPM/2026/Workshop/FOR-BPM" target="_blank" rel="noopener noreferrer">OpenReview</a>**.
 
 Authors are encouraged to include an optional brief history of the idea, either in the paper itself or in the appendix (for example: prior submissions, reviews, and reception). This contextual information will be used solely to evaluate topical fit and to foster constructive re-positioning within the community.
 
@@ -75,13 +91,13 @@ Authors are encouraged to include an optional brief history of the idea, either 
 
 In alignment with the workshop’s focus on overlooked and unconventional ideas, the review process is designed to be transparent and constructive.
 
-All reviews will be public but anonymous. This transparency makes the evaluation process visible while preserving reviewer confidentiality, encouraging constructive commentary, mitigating bias against unconventional ideas, and helping identify promising directions that might be overlooked under standard closed review.
+All reviews will be **public but anonymous**. This transparency makes the evaluation process visible while preserving reviewer confidentiality, encouraging constructive commentary, mitigating bias against unconventional ideas, and helping identify promising directions that might be overlooked under standard closed review.
 
-Reviewers will be asked to focus on the insightfulness, discussion potential, and relevance to the workshop theme, rather than solely on novelty or expected impact. Submissions are not required to be fully validated, but should offer clear and thought-provoking perspectives.
+Reviewers will be asked to **focus on the insightfulness, discussion potential, and relevance to the workshop theme**, rather than solely on novelty or expected impact. Submissions are not required to be fully validated, but should offer **clear and thought-provoking perspectives**.
 
 The review process may include a brief discussion phase, where authors can respond to reviews and reviewers can ask clarifying questions. This exchange is intended to improve mutual understanding and refine how the work is framed within the community.
 
-Reviews of accepted papers will be made public. Authors of rejected papers may opt out from having their submission and reviews shared.
+Reviews of accepted papers will be made public. Authors of **rejected papers may opt out from having their submission and reviews shared**.
 
 ## Workshop format
 

@@ -55,7 +55,9 @@
       </article>
     </main>
     <script>
-      const revealItems = document.querySelectorAll(".content-section, .timeline-item, .organizer-card");
+      const revealItems = document.querySelectorAll(
+        ".content-section, .contribution-card, .timeline-item, .organizer-card"
+      );
 
       if ("IntersectionObserver" in window) {
         const observer = new IntersectionObserver(
