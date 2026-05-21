@@ -36,6 +36,8 @@ Submissions should follow the LNBIP format and can be of two types:
 - Regular paper submissions: no longer than 12 pages, excluding appendices.
 - Short paper submissions: up to 8 pages, excluding appendices.
 
+Papers should be submitted through [OpenReview](https://openreview.net/group?id=bpm-conference.org/BPM/2026/Workshop/FOR-BPM).
+
 Authors are encouraged to include an optional brief history of the idea, either in the paper itself or in the appendix (for example: prior submissions, reviews, and reception). This contextual information will be used solely to evaluate topical fit and to foster constructive re-positioning within the community.
 
 ## Open reviewing process
