@@ -5,6 +5,37 @@ pageTitle: FOR-BPM 2026 | Workshop at BPM 2026
 description: FOR-BPM 2026, the 1st International Workshop on Forgotten, Overlooked and Rejected Topics in Business Process Management.
 eyebrow: BPM 2026 Workshop
 heroTitle: The 1st International Workshop on Forgotten, Overlooked and Rejected Topics in Business Process Management (FOR-BPM)
+glance:
+  - label: Date
+    value: September 28, 2026
+  - label: Location
+    value: Toronto, Canada
+  - label: Venue
+    value: BPM 2026
+  - label: Submission deadline
+    value: June 5, 2026
+organizers:
+  - name: Iris Beerepoot
+    affiliation: Utrecht University, The Netherlands
+    profileUrl: https://www.uu.nl/staff/IMBeerepoot
+    image: /assets/organizers/iris-beerepoot.jpg
+  - name: Manuel Resinas
+    affiliation: Universidad de Sevilla, Spain
+    profileUrl: https://personal.us.es/resinas/
+    image: /assets/organizers/manuel-resinas.jpg
+  - name: Tijs Slaats
+    affiliation: University of Copenhagen, Denmark
+    profileUrl: https://di.ku.dk/english/staff/?pure=en%2Fpersons%2F561613
+    image: /assets/organizers/tijs-slaats.jpg
+importantDates:
+  - date: June 5, 2026
+    label: Paper submission
+  - date: July 3, 2026
+    label: Notification to authors
+  - date: July 31, 2026
+    label: Camera-ready submission
+  - date: September 28, 2026
+    label: Workshop
 ---
 
 ## Aims and Scope
@@ -36,7 +67,7 @@ Submissions should follow the LNBIP format and can be of two types:
 - Regular paper submissions: no longer than 12 pages, excluding appendices.
 - Short paper submissions: up to 8 pages, excluding appendices.
 
-Papers should be submitted through [OpenReview](https://openreview.net/group?id=bpm-conference.org/BPM/2026/Workshop/FOR-BPM).
+Papers should be submitted through <a href="https://openreview.net/group?id=bpm-conference.org/BPM/2026/Workshop/FOR-BPM" target="_blank" rel="noopener noreferrer">OpenReview</a>.
 
 Authors are encouraged to include an optional brief history of the idea, either in the paper itself or in the appendix (for example: prior submissions, reviews, and reception). This contextual information will be used solely to evaluate topical fit and to foster constructive re-positioning within the community.
 
@@ -66,17 +97,35 @@ We will also reflect on the meta-practices that shape our field, including revie
 <a id="important-dates"></a>
 
 ## Important dates
-- Paper submission: June 5, 2026 
-- Notification to authors: July 3, 2026 
-- Camera-ready submission: July 31, 2026 
-- Workshop: September 28, 2026
+
+{% if importantDates %}
+<div class="timeline">
+  {% for item in importantDates %}
+  <div class="timeline-item">
+    <p class="timeline-date">{{ item.date }}</p>
+    <p class="timeline-label">{{ item.label }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
 
 All deadlines are set to 23:59 Anywhere on Earth (AoE), GMT+12.
 
 ## Organizers
-- Iris Beerepoot, Utrecht University, The Netherlands
-- Manuel Resinas, Universidad de Sevilla, Spain
-- Tijs Slaats, University of Copenhagen, Denmark
+
+{% if organizers %}
+<div class="organizer-grid">
+  {% for organizer in organizers %}
+  <a class="organizer-card" href="{{ organizer.profileUrl }}" target="_blank" rel="noopener noreferrer">
+    <img src="{{ organizer.image }}" alt="{{ organizer.name }}" loading="lazy" />
+    <span>
+      <strong>{{ organizer.name }}</strong>
+      <span>{{ organizer.affiliation }}</span>
+    </span>
+  </a>
+  {% endfor %}
+</div>
+{% endif %}
 
 ## Program committee
 

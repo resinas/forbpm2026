@@ -2,8 +2,7 @@ const cheerio = require("cheerio");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("styles.css");
-  eleventyConfig.addPassthroughCopy("bpm-logo.svg");
-  eleventyConfig.addPassthroughCopy("toronto-bg.svg");
+  eleventyConfig.addPassthroughCopy("assets");
 
   eleventyConfig.addTransform("sectionCards", function (content, outputPath) {
     if (!outputPath || !outputPath.endsWith(".html")) {

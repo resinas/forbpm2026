@@ -7,14 +7,14 @@ Static landing page for the FOR-BPM 2026 workshop, generated from markdown with 
 2. Run `npm run build` to generate static output in `_site/`.
 3. Deploy `_site/` (or let Cloudflare run the build).
 
-The BPM logo is shown in the header from `bpm-logo.svg`.
+The BPM logo is shown in the header from `assets/bpm-logo.svg`.
 
 ## Files
 - `cfp.md`: Source content (the only file you normally edit)
 - `_includes/layouts/base.njk`: Page template
 - `.eleventy.js`: Eleventy config
 - `styles.css`: Visual design and responsive behavior
-- `bpm-logo.svg`: Small BPM logo shown in header
+- `assets/bpm-logo.svg`: Small BPM logo shown in header
 - `package.json`: Build/dev scripts and dependencies
 
 ## Local run
