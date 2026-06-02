@@ -13,7 +13,7 @@ glance:
   - label: Venue
     value: BPM 2026
   - label: Submission deadline
-    value: June 5, 2026
+    value: <span class="old-date">June 5, 2026</span> June 12, 2026 (extended)
 organizers:
   - name: Iris Beerepoot
     affiliation: Utrecht University, The Netherlands
@@ -28,9 +28,9 @@ organizers:
     profileUrl: https://di.ku.dk/english/staff/?pure=en%2Fpersons%2F561613
     image: /assets/organizers/tijs-slaats.jpg
 importantDates:
-  - date: June 5, 2026
-    label: Paper submission
-  - date: July 3, 2026
+  - date: <span class="old-date">June 5, 2026</span> June 12, 2026
+    label: Paper submission (extended deadline)
+  - date: July 10, 2026
     label: Notification to authors
   - date: July 31, 2026
     label: Camera-ready submission
@@ -118,7 +118,7 @@ We will also reflect on the meta-practices that shape our field, including revie
 <div class="timeline">
   {% for item in importantDates %}
   <div class="timeline-item">
-    <p class="timeline-date">{{ item.date }}</p>
+    <p class="timeline-date">{{ item.date | safe }}</p>
     <p class="timeline-label">{{ item.label }}</p>
   </div>
   {% endfor %}

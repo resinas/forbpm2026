@@ -194,6 +194,12 @@ h1 {
   font-weight: 700;
 }
 
+.old-date {
+  color: rgba(24, 34, 45, 0.52);
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
 main {
   margin-top: 1rem;
 }

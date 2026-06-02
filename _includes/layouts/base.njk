@@ -42,7 +42,7 @@
         {% for item in glance %}
         <div>
           <dt>{{ item.label }}</dt>
-          <dd>{{ item.value }}</dd>
+          <dd>{{ item.value | safe }}</dd>
         </div>
         {% endfor %}
       </dl>
