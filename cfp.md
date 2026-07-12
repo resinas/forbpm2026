@@ -47,6 +47,16 @@ contributionTypes:
     description: Re-framing old or rejected concepts in light of new technologies and contexts.
 ---
 
+<h2 id="accepted-papers">Accepted papers</h2>
+
+We are excited to share the list of papers accepted to FOR-BPM 2026:
+
+- **The Dark Side of Process Mining in Public Organizations: Data Access Constraints as Evidence of Organizational Opacity**<br>Camila Pires de Angelucci, Silvia Inês Dallavalle de Pádua, Kate Cerqueira Revoredo
+- **The Rediscovery of Dynamic BPM: From Theoretical Margins to Mainstream Practice**<br>Marek Szelągowski, Justyna Berniak-Woźny, Piotr Sliż
+- **Why We Should Study Checklists: Reflections on an Overlooked Idea**<br>Hajo A. Reijers, Henrik Leopold
+
+You can find the papers' PDFs and reviews on <a href="https://openreview.net/group?id=bpm-conference.org/BPM/2026/Workshop/FOR-BPM#tab-accept" target="_blank" rel="noopener noreferrer">OpenReview</a>.
+
 ## Aims and Scope
 
 Across BPM, certain research topics, findings, or ideas quietly disappear: studies that failed, prototypes that didn’t work, promising directions reviewers discouraged, or questions no one seems to care about. Yet these elements often contain insights that never surface in published work.
@@ -145,4 +155,26 @@ All deadlines are set to 23:59 Anywhere on Earth (AoE), GMT+12.
 
 ## Program committee
 
-Coming soon
+- Adela del Río Ortega — Universidad de Sevilla, Spain
+- Andrea Burattin — Technical University of Denmark (DTU), Denmark
+- Andrey Rivkin — Technical University of Denmark (DTU), Denmark
+- Avigdor Gal — Technion – Israel Institute of Technology, Israel
+- Barbara Re — University of Camerino, Italy
+- Benoit Depaire — Hasselt University, Belgium
+- Boudewijn van Dongen — Eindhoven University of Technology (TU/e), The Netherlands
+- Claudio Di Ciccio — Utrecht University, Italy
+- Estefanía Serral — KU Leuven, Belgium
+- Flavia Santoro — Institute of Technology and Leadership (Inteli), Brazil
+- Han van der Aa — University of Vienna, Austria
+- Inge van de Weerd — Utrecht University, The Netherlands
+- Irene Vanderfeesten — KU Leuven, Belgium
+- Jan Mendling — Humboldt-Universität zu Berlin, Germany
+- Jochen De Weerdt — KU Leuven, Belgium  
+- Joerg Evermann — Memorial University of Newfoundland, Canada
+- Manfred Reichert — Ulm University, Germany
+- Marta Indulska — The University of Queensland, Australia
+- Matthias Weidlich — Humboldt-Universität zu Berlin, Germany
+- Michael Rosemann — Queensland University of Technology (QUT), Australia
+- Pnina Soffer — University of Haifa, Israel
+- Stefanie Rinderle-Ma — Technical University of Munich (TUM), Germany
+
